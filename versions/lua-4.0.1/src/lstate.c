@@ -118,4 +118,3 @@ LUA_API void lua_close (lua_State *L) {
   LUA_ASSERT(L != lua_state || memdebug_numblocks == 0, "memory leak!");
   LUA_ASSERT(L != lua_state || memdebug_total == 0,"memory leak!");
 }
-

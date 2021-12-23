@@ -74,4 +74,3 @@ struct lua_State {
 
 
 #endif
-

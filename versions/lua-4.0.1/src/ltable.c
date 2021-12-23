@@ -27,7 +27,7 @@
 #include "ltable.h"
 
 
-#define gcsize(L, n)	(sizeof(Hash)+(n)*sizeof(Node))
+#define gcsize(L, n)    (sizeof(Hash)+(n)*sizeof(Node))
 
 
 
@@ -300,4 +300,3 @@ void luaH_setstrnum (lua_State *L, Hash *t, TString *key, Number val) {
 const TObject *luaH_getglobal (lua_State *L, const char *name) {
   return luaH_getstr(L->gt, luaS_new(L, name));
 }
-
